@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  mtls:
+    build: ./MeasuringToolsFolder
+  mongo:
+    image: mongo
